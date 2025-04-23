@@ -29,7 +29,7 @@ def load_variable():
         print(f"Error al cargar variables de entorno: {e}")
         return None, None
 
-# Función para realizar la solioitud a la api de google
+# Función para realizar la solicitud a la api de google
 def request_api(api_key, search_engine_id):
     try:
         # Definir las variables necesarias para realizar la solicitud
