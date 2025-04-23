@@ -13,7 +13,7 @@ def load_variable():
         search_engine_id = os.getenv("SEARCH_ENGINE_ID")
 
 
-        # Verificar que las variables de entorno esten cargadas correctmente en las variables locales
+        # Verificar que las variables de entorno esten asignadas correctmente dentro de las variables locales
         if not api_key:
             raise ValueError("No se encontró la API key.")
         if not search_engine_id:
